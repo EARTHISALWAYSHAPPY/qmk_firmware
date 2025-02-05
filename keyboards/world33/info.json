@@ -1,9 +1,9 @@
 {
-    "manufacturer": "Kunanon",
-    "keyboard_name": "world_3x3",
+    "manufacturer": "KUNANON",
+    "keyboard_name": "world33",
     "maintainer": "EARTHISALWAYSHAPPY",
-    "bootloader":"atmel-dfu",
-    "diode_direction": "ROW2COL",
+    "bootloader": "atmel-dfu",
+    "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
         "command": false,
@@ -16,12 +16,12 @@
         "cols": ["B3", "B2", "B6"],
         "rows": ["F6", "F7", "B1"]
     },
-    "processor":"atmega32u4",
+    "processor": "atmega32u4",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
+        "pid": "0x1403",
+        "vid": "0x5733"
     },
     "layouts": {
         "LAYOUT_ortho_3x3": {
